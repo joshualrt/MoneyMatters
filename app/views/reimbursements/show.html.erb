@@ -1,0 +1,28 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @reimbursement.name %>
+</p>
+
+<p>
+  <strong>Studentid:</strong>
+  <%= @reimbursement.studentid %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @reimbursement.email %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @reimbursement.amount %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @reimbursement.description %>
+</p>
+
+<%= link_to 'Back', new_reimbursement_path, class: "btn btn-link" %>
