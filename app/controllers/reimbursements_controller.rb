@@ -6,7 +6,6 @@ class ReimbursementsController < ApplicationController
   def index
     @reimbursements = Reimbursement.all
   end
-
   # GET /reimbursements/1
   # GET /reimbursements/1.json
   def show
@@ -69,6 +68,6 @@ class ReimbursementsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def reimbursement_params
-      params.require(:reimbursement).permit(:name, :studentid, :email, :amount, :description)
-    end
+      params.require(:reimbursement).permit(:name, :studentid, :email, :amount, :description, :document)
+    end  
 end

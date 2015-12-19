@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151218122557) do
+ActiveRecord::Schema.define(version: 20151219024151) do
 
   create_table "reimbursements", force: true do |t|
     t.string   "name"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20151218122557) do
     t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "document"
   end
 
 end
