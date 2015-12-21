@@ -15,6 +15,10 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'coffee-script-source', '1.8.0'
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
+<<<<<<< HEAD
 gem 'carrierwave'
 gem 'fog'
 gem 'fog-aws'
+=======
+gem 'carrierwave'
+>>>>>>> 320808c6ec3147a0fb353d93a0eaffc53b1456a0

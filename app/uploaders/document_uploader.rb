@@ -7,8 +7,13 @@ class DocumentUploader < CarrierWave::Uploader::Base
   # include CarrierWave::MiniMagick
 
   # Choose what kind of storage to use for this uploader:
+<<<<<<< HEAD
   # storage :file
   storage :fog
+=======
+  storage :file
+  # storage :fog
+>>>>>>> 320808c6ec3147a0fb353d93a0eaffc53b1456a0
 
   # Override the directory where uploaded files will be stored.
   # This is a sensible default for uploaders that are meant to be mounted:
